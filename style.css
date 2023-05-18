@@ -7,10 +7,56 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #005689;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
   overflow: hidden;
+  padding: 50px;
+}
+.title {
+  margin-bottom: 20px;
+}
+
+.container {
+  background-color: #d5eeff;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 10px 10px 20px 20px #211e1833;
+  max-width: 100%;
+  width: 800px;
+}
+
+.joke-title {
+  margin-bottom: 20px;
+  opacity: 0.8;
+  letter-spacing: 1.5px;
+}
+
+.joke {
+  font-size: 28px;
+  letter-spacing: 1px;
+  line-height: 38px;
+  margin: 50px auto;
+}
+.btn {
+  background-color: #ff895d;
+  font-size: 16px;
+  border: 0;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-family: inherit;
+  color: #fff;
+  box-shadow: 10px 10px 20px 10px #211e1833;
+}
+
+.btn:focus {
+  outline: non0;
+}
+.btn:active {
+  transform: scale(0.98);
 }
